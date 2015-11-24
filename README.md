@@ -6,3 +6,4 @@ Dojos de App Empresariales
 3) Scala en Play Framework (Team Ockham's Razor) <br>
 4) Angular (Team Cejotas) <br>
 5) Ionic (Team JAL) <br>
+6) TDD: Números romanos <br>
