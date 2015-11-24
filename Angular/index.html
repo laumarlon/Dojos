@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DojoAngular</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="resources/js/angular/bootstrap.css" />
+  </head>
+
+  <!-- spinnerBankAngularApp es el nombre general del modulo que controla toda la aplicación -->
+  <!--  -->
+  <body ng-app = "spinnerBankAngularApp"> <!-- ng-app crea el modulo -->
+
+     <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#/">DojoAngular</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li><a ng-href="#/producto">Mis Productos</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">Juan Pérez</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div ng-View = ""></div>
+    </div>
+
+
+    <script src="resources/js/angular/jquery.js"></script>
+    <script src="resources/js/angular/angular.js"></script>
+    <script src="resources/js/angular/bootstrap.js"></script>
+    <script src="resources/js/angular/angular-route.js"></script>
+
+    <!-- Los archivos que creamos hay que referenciarlos -->
+    <script src="resources/js/app.js"></script> <!-- referenciar de primero -->
+    <script src="resources/js/controllers.js"></script>
+    <script src="resources/js/services.js"></script>
+
+</body>
+</html>
